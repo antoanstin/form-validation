@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form-Validation</title>
+	<link href="css/style.css" rel="stylesheet"> 
+</head>
+<body>
+	<div class="get-form">
+		<form>
+			<h2>Sign up form</h2>
+			<div class="group">
+				<input type="text" name="username" placeholder="Enter your name" class="control">
+				<p class="error-msg">please Enter your name</p>
+			</div>
+			<div class="group">
+				<input type="email" name="useremail" placeholder="Enter your email" class="control">
+				<p class="error-msg">please Enter your email</p>
+			</div>
+			<div class="group">
+				<input type="password" name="password" id="password" placeholder="Enter your password" class="control">
+				<p class="error-msg">please Enter your password</p>
+				<p class="password-msg">possword must be greaterthan 6..!</p>
+
+			</div>
+			<div class="group">
+				<input type="password" name="password" id="confirm-password" placeholder="Re enter your password" class="control">
+				<p class="error-msg">please Enter your password</p>
+				<p class="confpass-msg">The password doesn't match</p>
+			</div>
+			<button type="submit" id="btn"  class="btn">Sign up</button>
+		</form>
+	</div>
+	<script src="main.js"></script>
+	</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+ }
+ .get-form{
+    margin: 30px auto 0;
+    width:500px;
+    padding:15px;
+    border:solid 2px #ccc; 
+    border-radius: 5px;
+
+ }
+ .control{
+    width: 100%;
+    border-radius: 5px;
+    height:40px;
+    padding: 10px;
+    border:solid 1px #ccc;
+ }
+ .control:focus{
+    outline: 0;   
+ }
+ .group{
+    margin-bottom: 20px;
+ }
+ h2{
+    margin-bottom: 16px;
+ }
+ .btn{
+    display:inline-block;
+    border-radius: 5px;
+    padding: 8px 25px;
+    background-color: blue;
+    color: #fff;
+    font-size: 16px;
+    border:solid 1px #ccc;
+ }
+ .password-msg,.confpass-msg,.error-msg{
+    color:red;
+    display:none;
+ }
+ .invalid-input{
+   display:block !important;
+ }
